@@ -3,3 +3,6 @@ all:
 
 run:
 	./a.out
+
+clear:
+	rm -f *.o a.out

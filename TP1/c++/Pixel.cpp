@@ -8,6 +8,10 @@ Pixel::~Pixel() {
 
 }
 
+void Pixel::print() {
+	std::cout << this->r << " ";
+}
+
 int Pixel::getR() {
 	return this->r;
 }
@@ -18,6 +22,12 @@ int Pixel::getG() {
 
 int Pixel::getB() {
 	return this->b;
+}
+
+void Pixel::set(int r, int g, int b) {
+	this->r = r;
+	this->g = g;
+	this->b = b;
 }
 
 void Pixel::setR(int n) {

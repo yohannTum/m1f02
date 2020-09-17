@@ -14,5 +14,10 @@ public:
 
 	Pixel get(int h, int l);
 
-	Pixel set(int h, int l, int r, int g, int b);
+	void set(int h, int l, int r, int g, int b);
+
+	void modifyEveryPixels(int nb_times);
+
+
+	void print();
 };
